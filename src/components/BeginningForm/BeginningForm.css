@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+h1 {
+  display: justify;
+  text-align: justify;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  color: #1b2cc2;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+form {
+  width: 30rem;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+input[type="text"] {
+  border: 1px solid;
+  width: 23rem;
+  height: 2rem;
+}
+
+select {
+  width: 23.5rem;
+  height: 2rem;
+  border: 1px solid;
+}
+
+label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: bold;
+}
+.radio-input {
+  margin-top: 1rem;
+}
+
+.radio-input p {
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.radio-input label {
+  display: inline-block;
+  padding-right: 1rem;
+  margin-top: 0.1rem;
+  font-weight: normal;
+}
+input[type="radio"] {
+  margin-right: 6px;
+}
+
+datalist {
+  display: none;
+}
+
+input[type="text"]:focus,
+select:focus,
+input[type="radio"]:focus {
+  padding: 1%;
+}
+
+button {
+  margin-top: 2rem;
+  background: #3740ff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+}
+
+button:hover,
+button:focus {
+  background: #272eb5;
+}
