@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { UserOptionsContext } from "../context/quizContext";
+import { UserOptionsContext } from "../../context/quizContext";
 import { trivia_categories } from "../../utils/questions_category";
 import "./BeginningForm.css";
 

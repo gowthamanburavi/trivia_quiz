@@ -3,3 +3,24 @@
 .quiz__body {
   font-family: "Space Grotesk", sans-serif;
 }
+.quiz__block {
+  width: 30rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.qyiz__answers {
+  margin-left: 2rem;
+}
+.quiz__options {
+  width: 60ch;
+  line-height: 1;
+  text-align: left;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.quiz__options:hover {
+  background-color: bisque;
+}

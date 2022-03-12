@@ -24,7 +24,7 @@ export const FetchQuestions = async (category, difficulty, quizQuestions) => {
         .then((response) => response.data)
         .catch((error) => console.log(error));
 
-    console.log("before return");
+    // console.log("before return");
 
     return data.results.map((question) => ({
         ...question,
