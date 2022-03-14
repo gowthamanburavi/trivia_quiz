@@ -5,8 +5,8 @@ export const QuestionCard = ({
     totalQuestion,
     question,
     answers,
-    // userAnswer,
-    // callback,
+    callback,
+    userAnswer,
 }) => {
     return (
         <div>
@@ -17,7 +17,7 @@ export const QuestionCard = ({
             <div>
                 {answers.map((answer) => (
                     <div className="quiz__answers" key={answer}>
-                        <button className="quiz__options" value={answer} >
+                        <button className="quiz__options" disabled={!!userAnswer} value={answer} onClick={callback}>
                             <span dangerouslySetInnerHTML={{ __html: answer }} />
                         </button>
                     </div>
@@ -27,7 +27,3 @@ export const QuestionCard = ({
     )
 }
 
-// answers: (2)['False', 'True']
-// correct_answer: "True"
-// question: "Michael Jackson had a pet python named &lsquo;Crusher&rsquo;."
-// type: "boolean"

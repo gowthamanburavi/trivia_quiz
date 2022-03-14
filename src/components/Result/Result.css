@@ -1,0 +1,26 @@
+.result {
+}
+.result__score {
+  text-align: center;
+}
+.result__score--small {
+  font-size: 2rem;
+}
+
+.result__score--large {
+  display: inline-block;
+  font-size: 7rem;
+  border: 5px solid #149499;
+  padding: 1rem;
+  color: orangered;
+  margin: 2rem;
+}
+.btn-retry {
+  position: relative;
+  left: 50%;
+  background-color: #20e870;
+  color: #000000;
+}
+.btn-retry:hover {
+  background-color: #4bbd5f;
+}

@@ -7,6 +7,8 @@ export const UserProvider = (props) => {
   const [category, setCategory] = useState("All");
   const [difficulty, setDifficulty] = useState("easy");
   const [quizQuestions, setQuizQuestions] = useState(10);
+  const [userAnswer, setUserAnswer] = useState([]);
+  const [score, setScore] = useState(0);
 
   return (
     <UserOptionsContext.Provider
@@ -19,6 +21,10 @@ export const UserProvider = (props) => {
         setDifficulty,
         quizQuestions,
         setQuizQuestions,
+        userAnswer,
+        setUserAnswer,
+        score,
+        setScore,
       }}
     >
       {props.children}
