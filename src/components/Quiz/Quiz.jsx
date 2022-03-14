@@ -35,6 +35,7 @@ export const Quiz = () => {
             }
         };
         fetchQuestions();
+        // eslint-disable-next-line
     }, []);
 
     // console.log("questions: ", questions);
